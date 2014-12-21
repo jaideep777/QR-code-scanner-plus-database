@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    android:stretchColumns="1">
+
+
+    <TableRow>
+      <TextView android:id="@+id/tbl_111" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:text="Number of people who came on:" />
+    </TableRow>
+      
+
+    <TableRow>
+      <TextView android:id="@+id/tbl_11" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:text="Day" />
+      <TextView android:id="@+id/tbl_12" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="B" />
+      <TextView android:id="@+id/tbl_13" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="L" />
+      <TextView android:id="@+id/tbl_14" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="C" />
+      <TextView android:id="@+id/tbl_15" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="D" />
+    </TableRow>
+    
+
+    <View android:layout_height="2dip" android:background="#FF909090" />
+
+    
+    <TableRow>
+      <TextView android:id="@+id/tbl_txt6" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:text="25" />
+      <TextView android:id="@+id/tbl_25B" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="342" />
+      <TextView android:id="@+id/tbl_25L" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="654" />
+      <TextView android:id="@+id/tbl_25C" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="1023" />
+      <TextView android:id="@+id/tbl_25D" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="453" />
+    </TableRow>
+    
+    <TableRow>
+      <TextView android:id="@+id/tbl_txt7" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:text="26" />7
+      <TextView android:id="@+id/tbl_26B" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="342" />
+      <TextView android:id="@+id/tbl_26L" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="654" />
+      <TextView android:id="@+id/tbl_26C" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="1023" />
+      <TextView android:id="@+id/tbl_26D" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="453" />
+    </TableRow>
+    
+    <TableRow>
+      <TextView android:id="@+id/tbl_txt8" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:text="27" />
+      <TextView android:id="@+id/tbl_27B" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="342" />
+      <TextView android:id="@+id/tbl_27L" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="654" />
+      <TextView android:id="@+id/tbl_27C" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="1023" />
+      <TextView android:id="@+id/tbl_27D" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="453" />
+    </TableRow>
+    
+    <TableRow>
+      <TextView android:id="@+id/tbl_txt9" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:text="28" />
+      <TextView android:id="@+id/tbl_28B" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="342" />
+      <TextView android:id="@+id/tbl_28L" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="654" />
+      <TextView android:id="@+id/tbl_28C" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="1023" />
+      <TextView android:id="@+id/tbl_28D" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="453" />
+    </TableRow>
+
+    <View android:layout_height="2dip" android:background="#FF909090" />
+    <TableRow>
+       <TextView android:id="@+id/tbl_txt10" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:text="Number of people who said 'Y' on:" />
+    </TableRow>
+      
+
+    
+    <TableRow>
+      <TextView android:id="@+id/tbl_11n" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:text="Day" />
+      <TextView android:id="@+id/tbl_12n" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="B" />
+      <TextView android:id="@+id/tbl_13n" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="L" />
+      <TextView android:id="@+id/tbl_14n" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="C" />
+      <TextView android:id="@+id/tbl_15n" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="D" />
+    </TableRow>
+    
+
+    <View android:layout_height="2dip" android:background="#FF909090" />
+
+    
+    <TableRow>
+      <TextView android:id="@+id/tbl_txt6n" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:text="25" />
+      <TextView android:id="@+id/tbl_25Bn" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="342" />
+      <TextView android:id="@+id/tbl_25Ln" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="654" />
+      <TextView android:id="@+id/tbl_25Cn" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="1023" />
+      <TextView android:id="@+id/tbl_25Dn" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="453" />
+    </TableRow>
+    
+    <TableRow>
+      <TextView android:id="@+id/tbl_txt7n" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:text="26" />7
+      <TextView android:id="@+id/tbl_26Bn" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="342" />
+      <TextView android:id="@+id/tbl_26Ln" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="654" />
+      <TextView android:id="@+id/tbl_26Cn" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="1023" />
+      <TextView android:id="@+id/tbl_26Dn" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="453" />
+    </TableRow>
+    
+    <TableRow>
+      <TextView android:id="@+id/tbl_txt8n" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:text="27" />
+      <TextView android:id="@+id/tbl_27Bn" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="342" />
+      <TextView android:id="@+id/tbl_27Ln" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="654" />
+      <TextView android:id="@+id/tbl_27Cn" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="1023" />
+      <TextView android:id="@+id/tbl_27Dn" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="453" />
+    </TableRow>
+    
+    <TableRow>
+      <TextView android:id="@+id/tbl_txt9n" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:text="28" />
+      <TextView android:id="@+id/tbl_28Bn" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="342" />
+      <TextView android:id="@+id/tbl_28Ln" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="654" />
+      <TextView android:id="@+id/tbl_28Cn" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="1023" />
+      <TextView android:id="@+id/tbl_28Dn" android:layout_width="0dip" android:layout_height="wrap_content" android:padding="5dip" android:layout_margin="4dip" android:layout_weight="1" android:gravity="right" android:text="453" />
+    </TableRow>
+    
+    
+</TableLayout>

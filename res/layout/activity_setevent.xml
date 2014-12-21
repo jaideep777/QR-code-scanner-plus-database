@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="iisc.jaideep.sccsapp.MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/day_radioGroup"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="Choose Date"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/day_radioGroup"
+        android:layout_below="@+id/day_radioGroup"
+        android:layout_marginTop="40dp"
+        android:text="Choose Time"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/meal_radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="22dp" >
+
+        <RadioButton
+            android:id="@+id/meal_radioB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Breakfast"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/meal_radioL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lunch" 
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/meal_radioC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coffee" 
+            android:onClick="onRadioButtonClicked" />
+        
+        <RadioButton
+            android:id="@+id/meal_radioD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dinner" 
+            android:onClick="onRadioButtonClicked" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/day_radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/day_radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25" 
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/day_radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="26" 
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/day_radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="27" 
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/day_radio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="28" 
+            android:onClick="onRadioButtonClicked" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        android:text="Start Scanning" 
+        android:onClick="onStartScanClicked"/>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SCCSApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_set_event">Choose Event</string>
+    <string name="action_delete_db">Reset Database</string>
+    <string name="action_logcat_db">View Database</string>
+    <string name="action_home">Home</string>
+    <string name="action_show_counts">Show Counts</string>
+    
+</resources>
